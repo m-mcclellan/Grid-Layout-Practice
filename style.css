@@ -34,12 +34,12 @@ a:hover {
 }
 
 .box > img:hover{
-    border-bottom: solid #7abcff;
+    border-bottom: solid #f00aff;
 }
 
 
 .box {
-    background-color: #444;
+    background-color: #d2d4de;
     padding: 130px;
     margin: 20px;
     border-radius: 5px;
