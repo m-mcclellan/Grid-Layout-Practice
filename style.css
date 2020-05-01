@@ -30,12 +30,23 @@ a:hover {
 
 .box > img{
     width: 100%;
+    padding: 20px;
 }
+
+.box > img:hover{
+    border-bottom: solid #7abcff;
+}
+
 
 .box {
     background-color: #444;
     padding: 130px;
     margin: 20px;
+    border-radius: 5px;
+}
+
+.cover {
+    width: 30rem;
 }
 
 .push {
@@ -57,6 +68,12 @@ a:hover {
     text-align: left;
     font-size: 0.7em;
     margin: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -127,5 +144,7 @@ li {
 
 footer {
     text-align: center;
+    font-size: 10px;
+    padding: 10px;
 }
 
